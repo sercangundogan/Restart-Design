@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Header */
+.header {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 100;  
+    box-shadow: 10px 10px 5px rgba(255,255,255,0.8); 
+}
+.header-row{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+    
+
+}
+
+.header-logo {
+    cursor: pointer;
+}
+
+.header-links {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.2rem;
+    
+    
+}
+
+.header-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-links ul li a{
+    margin: 0 1rem;
+    transition: all 0.5s;
+    
+}
+
+.header-links ul li a:hover{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-social-media {
+    margin-right: 1rem;
+}
+
+.header-social-media ul {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.header-social-media ul li{
+    margin: 0 0.5rem;
+}
+
+.mobile-menu {
+    display: none;
+}
+.bar {
+    display: none;
+}
+
+/* MAIN */
+.container {
+    margin-top: 8rem;
+}
+
+.homepage-photos {
+    width: 100%;
+}
+
+.homepage-photos ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 1rem 2.5rem;
+}
+
+.homepage-photos li {
+    margin: 2rem 0 ;
+}
+
+
+.homepage-photos img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: all 0.5s;
+    opacity: 1;
+    border-radius: 1rem;
+}
+
+.homepage-photos img:hover {
+    opacity:0.7;
+    z-index: -100;
+    
+}
+
+
+/* ABOUT PAGE */
+
+.about-main {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px rgba(255,255,255,0.8); 
+}
+
+.about-inside {
+    width: 60%;
+    height: 80%;
+    margin: 20vh auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.about-inside h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    padding: 1rem;
+    padding-top: 0;
+}
+.about-inside p {
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 1rem;
+    padding-top: 0;
+    font-family: 'Exo', sans-serif;
+    line-height: 2rem;
+
+}
+
+
+
+/* Contact Page */
+
+.contact-main {
+    width: 79%;
+    height: auto;
+    margin: 22vh auto;
+}
+
+.contact-main h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 22vh;
+}
+
+.contact-form li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Exo', sans-serif; 
+} 
+
+.contact-row {
+    display: flex;
+    align-items: center;
+}
+.contact-row div {
+    padding-left: 1rem;
+}
+
+.contact-form i {
+    font-size: 3rem;
+    height: 100%;
+}
+
+.contact-form strong{
+    font-size: 1.3rem;
+}
+
+.send-mail {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: indianred;
+    letter-spacing: 0.1rem;
+}
+
+/* BRANDS PAGE*/
+
+.brands-main {
+    width: 100%;
+    height: auto;
+    margin: 15vh auto;
+}
+
+.brands-main img {
+    width: 100%;
+    height: auto;
+}
